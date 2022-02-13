@@ -69,8 +69,13 @@ body {
   color: hsl(201, 11%, 66%);
 }
 
-.first-header-buttons a,
-.header-buttons a {
+.first-header-ios-button,
+.first-header-mac-button,
+.header-ios-button,
+.header-mac-button {
+  border: none;
+  margin-bottom: 9.375rem;
+  border-radius: 300px;
   text-decoration: none;
   color: white;
   background-color: hsl(171, 66%, 44%);
@@ -78,17 +83,8 @@ body {
   border-radius: 30px;
 }
 
-.first-header-ios-button,
 .first-header-mac-button,
-.header-ios-button,
 .header-mac-button {
-  border: none;
-  margin-bottom: 9.375rem;
-  border-radius: 10px;
-}
-
-.first-header-mac-button a,
-.header-mac-button a {
   background-color: hsl(233, 100%, 69%);
 }
 .first-header-mac-button,
@@ -96,10 +92,10 @@ body {
   margin-left: 1rem;
 }
 
-.first-header-ios-button a:hover,
-.first-header-mac-button a:hover,
-.header-ios-button a:hover,
-.header-mac-button a:hover {
+.first-header-ios-button:hover,
+.first-header-mac-button:hover,
+.header-ios-button:hover,
+.header-mac-button:hover {
   opacity: 0.7;
 }
 
@@ -241,6 +237,8 @@ body {
 .last-section-h1 {
   margin-top: 0;
   font-weight: 600;
+  font-size: 2rem;
+  max-width: 695px;
 }
 
 .last-section-p {
@@ -316,8 +314,8 @@ body {
     margin-bottom: 10.313rem;
   }
 
-  .first-header-buttons a,
-  .header-buttons a {
+  .first-header-buttons,
+  .header-buttons {
     padding: 1.3em 5.79em;
     border-radius: 30px;
     font-size: 1rem;
