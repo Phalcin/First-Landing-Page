@@ -79,7 +79,7 @@ body {
   text-decoration: none;
   color: white;
   background-color: hsl(171, 66%, 44%);
-  padding: 1.4em 5.79em;
+  padding: 1.4em 4.79em;
   border-radius: 30px;
 }
 
@@ -176,6 +176,7 @@ body {
   align-items: center;
   margin: 0 auto;
   width: 100%;
+  max-width: 850px;
   margin-bottom: 10.75rem;
 }
 
@@ -314,7 +315,7 @@ body {
 
   .first-header-buttons,
   .header-buttons {
-    padding: 1.3em 5.79em;
+    padding: 2em 4em;
     border-radius: 30px;
     font-size: 1rem;
   }
