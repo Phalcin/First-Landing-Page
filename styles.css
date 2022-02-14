@@ -277,7 +277,8 @@ body {
   margin-left: 1.25rem;
 }
 
-.faqs-privacy {
+.faqs-privacy,
+.faqs-h2 {
   margin-bottom: 1.563rem;
 }
 
